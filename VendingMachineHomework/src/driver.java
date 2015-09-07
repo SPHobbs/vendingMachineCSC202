@@ -5,8 +5,9 @@ public class driver {
 	
 	public static void random(){
 		//This program creates the random numbers required for the customer input
-		int random = (int) (10*Math.random());
-		System.out.println(random);
+		int randomMachine = (int) (10*Math.random());
+		int randomMoney = (int) (10*Math.random());
+		int randomOrder = (int) (10*Math.random());
 		
 	}
 	
