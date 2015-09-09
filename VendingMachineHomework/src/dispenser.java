@@ -1,3 +1,4 @@
+
 import java.util.Arrays;
 
 
@@ -19,8 +20,11 @@ public class dispenser {
 		foodSlots[7] = "Mints";
 		foodSlots[8] = "Peanuts";
 		foodSlots[9] = "Pretzels";
-	
-		System.out.println(Arrays.toString(foodSlots));
+		
+		
+		int randomProduct = (int) (10*Math.random());
+		System.out.println("The user has selected " + foodSlots[randomProduct] );
+		//System.out.println(Arrays.toString(foodSlots));
 	}
 	public static void drinksDispenser(){
 		//This method creates the dispenser that will dispense the drink item ordered
@@ -38,6 +42,9 @@ public class dispenser {
 		drinkSlots[7] = "Coffee";
 		drinkSlots[8] = "Juice";
 		drinkSlots[9] = "Milk";
+		
+		int randomProduct = (int) (10*Math.random());
+		System.out.println("The user has selected " + drinkSlots[randomProduct] );
 			
 	}
 	
