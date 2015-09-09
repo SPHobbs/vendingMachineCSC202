@@ -11,7 +11,7 @@ public class vendingMachine {
 	
 	public static void main(String[]args){
 		//This method will create the customers and determine the order for which they arrive
-		System.out.println("the machine has turned on for the day");
+		System.out.println("The machine has turned on for the day");
 		
 		//int snacksDispensed=0;
 		//int drinksDispensed=0;
@@ -24,7 +24,7 @@ public class vendingMachine {
 		{
 			if(time<2000){
 				int randomMoney = (int) (10*Math.random());
-				int random = (int) (10*Math.random());
+				
 				
 				int randomMachine = (int) (10*Math.random());
 				int randomTime = (int) (100*Math.random());

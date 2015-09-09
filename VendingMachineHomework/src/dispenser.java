@@ -24,6 +24,7 @@ public class dispenser {
 		
 		int randomProduct = (int) (10*Math.random());
 		System.out.println("The user has selected " + foodSlots[randomProduct] );
+		foodInfo.snacksInfo();
 		//System.out.println(Arrays.toString(foodSlots));
 	}
 	public static void drinksDispenser(){
